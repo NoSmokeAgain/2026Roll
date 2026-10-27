@@ -6,10 +6,10 @@
 <title>慢慢捲｜手捲一根菸，你有這個耐心嗎？</title>
 <meta name="description" content="手捲一根菸，沒有捷徑。手太快會灑，太急會破，破了就從頭來。">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://nosmokeagain.github.io/2026roll/">
+<meta property="og:url" content="https://nosmokeagain.github.io/2026Roll/">
 <meta property="og:title" content="慢慢捲｜手捲一根菸，你有這個耐心嗎？">
 <meta property="og:description" content="沒有捷徑，破了從頭來。我捲了好幾張紙才成功。">
-<meta property="og:image" content="https://nosmokeagain.github.io/2026roll/og.png">
+<meta property="og:image" content="https://nosmokeagain.github.io/2026Roll/5C1D5830-0A1D-47A5-B78C-85930E004654.png">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#0b211d">
@@ -382,7 +382,7 @@ function makeCard(){const c=document.createElement('canvas');c.width=1080;c.heig
   a.fillStyle='#f4ebd8';a.font='700 120px monospace';a.fillText(fmt(S.result.ms),540,850);
   a.font=`500 38px ${sans}`;a.fillStyle='#d4dec9';a.fillText(`用掉 ${S.result.papers} 張紙，終於捲好了。`,540,930);
   a.fillStyle='#e8bb70';a.font=`900 44px ${sans}`;a.fillText('你有這個耐心嗎？',540,1080);
-  a.fillStyle='#b4c7b3';a.font='26px monospace';a.fillText(location.host?location.host+location.pathname.replace(/index\.html$/,''):'nosmokeagain.github.io/2026roll',540,1150);
+  a.fillStyle='#b4c7b3';a.font='26px monospace';a.fillText(location.host?location.host+location.pathname.replace(/index\.html$/,''):'nosmokeagain.github.io/2026Roll',540,1150);
   a.font=`22px ${sans}`;a.fillText('吸菸有害健康・本遊戲只捲不抽',540,1245);return c}
 $('save').onclick=async()=>{if(!S||!S.result)return;try{await document.fonts.ready}catch(e){}const c=makeCard();
   c.toBlob(async b=>{if(!b)return;const file=new File([b],'slow-roll.png',{type:'image/png'});
